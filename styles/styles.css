@@ -267,6 +267,11 @@ section{
     width: 1150px;
 }
 
+.services__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
 .services__text{
     max-width: 403px;
 
