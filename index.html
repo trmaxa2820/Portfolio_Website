@@ -9,6 +9,112 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    
+    <section class="about">
+        <header class="header">
+            <div class="header__logo">TROFIMOV</div>
+            <nav class="header__navigation">
+                <ul class="header__list">
+                    <a href="#portfolio" class="navigation__link link">портфолио</a>
+                    <a href="#competencies" class="navigation__link link">компетенции</a>
+                    <a href="#services" class="navigation__link link">услуги</a>
+                    <a href="#contacts" class="navigation__link link">контакты</a>
+                </ul>
+            </nav>
+        </header>
+        <div class="about__wrapper">
+            <p>Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+            <h1>Привет, я Максим — фронтенд разработчик</h1>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title title">Самые свежие проекты</h2>
+        <div class="portfolio__card">
+            <a href="https://trmaxa2820.github.io/module-1/" class="portfolio__link" target="_blank"><img src="./resources/project_metrica.jpg" alt="сайт дизайн студии метрика" class="portfolio__img"></a>
+            <img src="./resources/project_metrica_logo.png" alt="лого метрика" class="portfolio__logo">
+            <h3 class="portfolio__name">Metrica</h3>
+            <p class="portfolio__skils">верстка</p>
+        </div>
+        <div class="portfolio__card">
+            <a href="https://trmaxa2820.github.io/IphonesLanding/" class="portfolio__link" target="_blank"><img src="./resources/project_iphoneLanding.jpg" alt="сайт лэндинга iphone 13" class="portfolio__img"></a>
+            <h3 class="portfolio__name">Iphone landing</h3>
+            <p class="portfolio__skils">верстка</p>
+        </div>
+        <div class="portfolio__card">
+            <a href="https://trmaxa2820.github.io/NothingEar/" class="portfolio__link" target="_blank"><img src="./resources/project_nothingStore.jpg" alt="сайт nothing store" class="portfolio__img"></a>
+            <h3 class="portfolio__name">Nothing store</h3>
+            <p class="portfolio__skils">верстка</p>
+        </div>
+        <button class="portfolio_button">Смотреть все проекты</button>
+    </section>
+
+    <section class="competencies" id="competencies">
+        <h2 class="title">Мои компетенции</h2>
+        <div class="competencies__cards">
+            <div class="competencies__card">
+                <div class="competencies__icon-wrapper"><img src="./resources/html_icon.jpg" alt="html icon"></div>
+                <h3 class="competencies__title">HTML и CSS</h3>
+                <p class="competencies__description">это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы, а также применять стили к этим документам на CSS, является обязательным навыком для каждого фронтенд разработчика.</p>
+            </div>
+            <div class="competencies__card">
+                <div class="competencies__icon-wrapper"><img src="./resources/javascript_icon.png" alt="javascript icon"></div>
+                <h3 class="competencies__title">JavaScript</h3>
+                <p class="competencies__description">это язык программирования, который используется для создания динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне клиента.</p>
+            </div>
+            <div class="competencies__card">
+                <div class="competencies__icon-wrapper"><img src="./resources/framework_icon.png" alt="framework icon"></div>
+                <h3 class="competencies__title">Работа c библиотеками и фреймворками</h3>
+                <p class="competencies__description">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+            </div>
+            <div class="competencies__card">
+                <div class="competencies__icon-wrapper"><img src="./resources/react_icon.png" alt="react icon"></div>
+                <h3 class="competencies__title">Разработка для мобильных<br/> устройств и адаптивная верстка</h3>
+                <p class="competencies__description">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+            </div>
+        </div>    
+    </section>
+
+    <section class="services">
+        <p class="services__text">Помогаю реализовать широкий спектр задач</p>
+        <div class="services__cards">
+            <div class="services__card">
+                <img src="./resources/service_website_developments.jpg" alt="Разработка сайта под ключ" class="services__img">
+                <div class="services__wrapper">
+                    <h3 class="services__title">Разработка сайта под ключ</h3>
+                    <p class="services__description">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
+                        Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
+                </div>
+            </div>
+            <div class="services__card">
+                <img src="./resources/service_site_layout.jpg" alt="Верстка сайтов" class="services__img">
+                <div class="services__wrapper">
+                    <h3 class="services__title">Верстка сайтов</h3>
+                    <p class="services__description">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+                </div>
+            </div>
+            <div class="services__card">
+                <img src="./resources/service_developments_mobile_interface.jpg" alt="Разработка мобильного интерфейса" class="services__img">
+                <div class="services__wrapper">
+                    <h3 class="services__title">Разработка мобильного интерфейса</h3>
+                    <p class="services__description">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <p class="contacts__text">для связи:</p>
+        <nav class="contacts__navigation">
+            <ul class="contacts__list">
+                <li><a href="https://vk.com/im" class="contacts_link link" target="_blank">vk</a></li>
+                <li><a href="https://t.me/IMaksimTrofimov" class="contacts_link link" target="_blank">telegram</a></li>
+                <li><a href="mailto:trmaxa2820@gmail.com" class="contacts_link link" target="_blank">mail</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__author">Портфолио фротнтенд-разработчика Максима Трофимова</p>
+        <p class="footer__copyright">Все права защищены. 2023</p>
+    </footer>
 </body>
 </html>
